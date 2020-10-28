@@ -1,0 +1,24 @@
+.ViewPage {
+  width: 100%;
+}
+
+.ViewPage .main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image-container {
+  display: inline-flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+
+}
+
+.image {
+  max-width: 300px;
+  max-height: 300px;
+  display: inline-block;
+}

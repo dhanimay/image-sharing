@@ -1,12 +1,5 @@
-.App {
-  text-align: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.main {
+.UploadePage .main {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -20,24 +13,35 @@ header {
   font-weight: 600;
 }
 
-p {
+.picture-label {
   display: block;
   margin-bottom: 3em;
 }
 
-input {
+.success-label {
+  width: 100%;
+  background-color: green;
+}
+
+.btn {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  cursor: pointer;
 
 }
 
 .upload-button {
-  width: 100px;
-  height: 25px;
-  border-radius: 5px;
   background-color: blanchedalmond;
-  margin-bottom: 1em;
 }
 
-.image-container {
+.restart-button {
+  background-color: indianred;
+  color: white;
+}
+
+.UploadePage .image-container {
   width: 500px;
   height: 500px;
   opacity: 1;
@@ -58,4 +62,9 @@ input {
   height: 400px;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+
+.button-container {
+  position: relative;
 }
